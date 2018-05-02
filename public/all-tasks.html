@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="all-tasks">
+
+      <section class="header">
+        <div class="top">
+          <div class="logo">
+            OnTask
+          </div>
+          <div class="tasks-total">
+            <div class="tasks">
+              <span class="number">12</span> Tasks
+            </div>
+            <div class="tasks">
+              <span class="number">5</span> Completed
+            </div>
+          </div>
+          <div class="add-circle">
+            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
+      <section class="content-area">
+        <div class="container">
+          <div class="tasks-container">
+            <div class="task-box">
+              <div class="title">
+                Make Hair Appointment
+              </div>
+              <div class="date">
+                Created April 30, 2018
+              </div>
+              <div class="check-box">
+                <i class="fa fa-check" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="task-box">
+              <div class="title">
+                Oil Change
+              </div>
+              <div class="date">
+                Created May 02, 2018
+              </div>
+              <div class="check-box">
+                <i class="fa fa-check" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="task-box">
+                <div class="title">
+                    Grocery Shopping
+                </div>
+                <div class="date">
+                  Created May 02, 2018
+                </div>
+                <div class="empty-box">
+                </div>
+              </div>
+              <div class="task-box">
+                <div class="title">
+                  Knitting Group
+                </div>
+                <div class="date">
+                  Created May 04, 2018
+                </div>
+                <div class="empty-box">
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="task-form">
+        <form>
+          <label>Title</label>
+          <input type="text">
+        </form>
+      </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous">
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('.add-circle').on('click', function(){
+          console.log('show me the popup')
+        })
+      })
+    </script>
+  </body>
+</html>

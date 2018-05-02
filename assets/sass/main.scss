@@ -1,0 +1,32 @@
+@import url( 'https://fonts.googleapis.com/css?family=Megrim|Roboto:100,300,400,500,700');
+@import "reset";
+$white: #fff;
+$darkBlue: #3A4793;
+$lightBlue: #25B3EC;
+$lightPurple: #9787EE;
+$yellow: #FFBF3E;
+
+/*GLOBAL/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+*, h1, h2, h3 h4 h5, h6, p, span, div {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+/*BODY AREA//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+html, body {
+  background: #EDEDED;
+  height: 100%;
+}
+@import "_home.scss";
+@import "_all-tasks.scss";
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 15px 0;
+  &.lightBlue {
+    font-size: 25px;
+    background: $lightBlue;
+  }
+
+}
